@@ -7,15 +7,22 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Person.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
-        
-        // insert code here...
-        NSLog(@"Hello, World!");
-        
+
+        Person *person = [[Person alloc] init];
+
+        [person setWeightInKilos:70];
+        [person setHeightInMeters:1.7];
+
+        float bmi = [person bodyMassIndex];
+
+        NSLog(@"person has a BMI of %f", bmi);
+
     }
     return 0;
 }
