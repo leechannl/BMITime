@@ -8,13 +8,14 @@
 
 #import <Foundation/Foundation.h>
 #import "Person.h"
+#import "Employee.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
 
-        Person *person = [[Person alloc] init];
+        Employee *person = [[Employee alloc] init];
 
         [person setWeightInKilos:70];
         [person setHeightInMeters:1.7];
@@ -23,6 +24,7 @@ int main(int argc, const char * argv[])
 
         NSLog(@"person has a BMI of %f", bmi);
 
+        [person setEmployeeID:15];
     }
     return 0;
 }
