@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8D32612E19363C91007951CA /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D32612D19363C91007951CA /* Employee.m */; };
+		8D91811C1936D40C0001C4D1 /* Asset.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D91811B1936D40C0001C4D1 /* Asset.m */; };
 		8D9F28E81934E75D00008194 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9F28E71934E75D00008194 /* Foundation.framework */; };
 		8D9F28EB1934E75D00008194 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F28EA1934E75D00008194 /* main.m */; };
 		8D9F28EF1934E75D00008194 /* BMITime.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8D9F28EE1934E75D00008194 /* BMITime.1 */; };
@@ -30,6 +31,8 @@
 /* Begin PBXFileReference section */
 		8D32612C19363C91007951CA /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
 		8D32612D19363C91007951CA /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		8D91811A1936D40C0001C4D1 /* Asset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Asset.h; sourceTree = "<group>"; };
+		8D91811B1936D40C0001C4D1 /* Asset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Asset.m; sourceTree = "<group>"; };
 		8D9F28E41934E75D00008194 /* BMITime */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BMITime; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D9F28E71934E75D00008194 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8D9F28EA1934E75D00008194 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -83,6 +86,8 @@
 				8D9F28F51934E81F00008194 /* Person.h */,
 				8D9F28F61934E81F00008194 /* Person.m */,
 				8D32612C19363C91007951CA /* Employee.h */,
+				8D91811A1936D40C0001C4D1 /* Asset.h */,
+				8D91811B1936D40C0001C4D1 /* Asset.m */,
 				8D32612D19363C91007951CA /* Employee.m */,
 				8D9F28EE1934E75D00008194 /* BMITime.1 */,
 				8D9F28EC1934E75D00008194 /* Supporting Files */,
@@ -151,6 +156,7 @@
 			files = (
 				8D32612E19363C91007951CA /* Employee.m in Sources */,
 				8D9F28F71934E81F00008194 /* Person.m in Sources */,
+				8D91811C1936D40C0001C4D1 /* Asset.m in Sources */,
 				8D9F28EB1934E75D00008194 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
