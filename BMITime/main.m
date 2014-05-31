@@ -49,6 +49,12 @@ int main(int argc, const char * argv[])
 
         [employees sortUsingDescriptors:[NSArray arrayWithObjects:voa, ei, nil]];
 
+        NSPredicate *predicate = [NSPredicate predicateWithFormat:@"holder.valueOfAssets > 70"];
+
+        NSArray *toBeClaimed = [allAssets filteredArrayUsingPredicate:predicate];
+        NSLog(@"toBeClaimed: %@", toBeClaimed);
+        toBeClaimed = nil;
+
         NSLog(@"Employees: %@", employees);
 
         NSLog(@"Giving up ownrship of one employee");
